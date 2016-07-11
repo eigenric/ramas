@@ -60,3 +60,22 @@ li a {
 	font-size: 20px;
 	color: white;
 }
+
+
+input[type="button"] {
+
+	box-sizing: none;
+	font-family: "Open Sans";
+	font-size: 20px;
+	display: block;
+	background-color: #9c3334;
+	border: 0;
+	padding: 10px 20px 10px 20px;
+	color: white;
+
+}
+
+input[type="button"]:hover {
+	background-color: #78292a;
+
+}
