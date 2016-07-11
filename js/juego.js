@@ -32,7 +32,7 @@ var juego = function() {
 
 window.onload = function() {
 
-	document.getElementById("juego").onclick = function {
+	document.getElementById("jugar").onclick = function() {
 
 		juego();
 
