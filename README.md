@@ -1,4 +1,4 @@
-# Manejo de Ramas
+# Una prueba
 
-
-Probando el manejo de ramas aquí en GitHub a ver que tal.
+Probando los comandos básicos de Git mediante este
+repositorio de prueba
