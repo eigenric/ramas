@@ -5,6 +5,20 @@
 
 }
 
+@font-face {
+
+	font-family: "Consolas";
+	src: url("./Consolas.ttf");
+
+}
+
+@font-face {
+
+	font-family: "Monaco";
+	src: url(".monaco.ttf");
+
+}
+
 body {
 
 
@@ -27,6 +41,12 @@ h1 {
 	font-weight: normal;
 }
 
+
+.hljs {
+
+	border-radius: 10px;
+}
+
 #wrapper {
 
 	background-color: white;
@@ -36,6 +56,18 @@ h1 {
 	border-radius: 20px;
 	padding: 25px;
 	box-shadow: 10px 10px 10px #999;
+
+}
+
+#wrapper pre code {
+
+	font-size: 0.9em;
+	font-family: 'Consolas', 'Menlo', 'Deja Vu Sans Mono',
+                              'Bitstream Vera Sans Mono', monospace;
+	width: 80%;
+	margin: auto;
+	padding: 20px;
+
 
 }
 
@@ -65,15 +97,32 @@ li a {
 }
 
 
-input[type="button"] {
+#info {
+
+	padding: 5px;
+	margin-bottom: 10px;
+	width: 270px;
+	background-color: #a0e4a0;
+	float: left;
+	display: none;
+
+}
+
+#info p {
+
+	margin: auto;
+
+}
+
+input[type="button"], input[type="submit"] {
 
 	box-sizing: none;
 	font-family: "Open Sans";
-	font-size: 20px;
+	font-size: 17px;
 	display: block;
 	background-color: #9c3334;
 	border: 0;
-	padding: 10px 20px 10px 20px;
+	padding: 5px 10px 5px 10px;
 	color: white;
 
 }
@@ -81,4 +130,30 @@ input[type="button"] {
 input[type="button"]:hover {
 	background-color: #78292a;
 
+}
+
+#wrapper img {
+
+	display: inline-block;
+	margin-left: 10%;
+}
+
+aside {
+
+	text-align: center;
+	float: right;
+	margin-right: 10%;
+
+}
+
+aside textarea {
+	font-family: "Open Sans";
+	resize: none;
+	width: 250px;
+	height: 150px;
+}
+
+aside #enviar {
+
+	margin: auto;
 }
