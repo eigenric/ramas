@@ -2,19 +2,35 @@
 
 <html>
 	<head>
-		<title>Contacto</title>
+		<title>Acerca de</title>
 		<meta charset='utf-8'>
 		<link rel="stylesheet" href="css/style.css">
-		<script src="js/gracia.js"></script>
 	</head>
 
 	<body>
-		<h1>Bienvenido a la página de Contacto</h1>
-		<img src="img/pwaqo.jpg"/>
-		<h2>¿Qué le sugiere este hombre?</h1>
-		<form>
-			Opinion <textarea></textarea></br>
-			<input value="Enviar" type="submit">
-		</form>
+		<h1>Comical Web</h2>
+		<ul id="menu">
+			<li><a href="index.html">Inicio</a></li>
+			<li><a href="acerca.html">Acerca de</a></li>
+			<li><a href="contacto.html">Contacto</a></li>
+		</ul>
+
+
+		<div id="wrapper">
+			<h2>¿Qué le sugiere este hombre?</h2>
+			<img src="img/pwaqo.jpg"/ width=200px>
+			<aside>
+				<div id="info"></div>
+				<form>
+	                	        <h3>Opinion</h3>
+					<textarea id="opinion" name="opinion"></textarea>
+	                	        <p><input id="enviar" value="Enviar" type="button"/></p>
+	        	        </form>
+			</aside>
+
+		</div>
+		
+		<script src="js/contact.js"></script>
+		
 	</body>
 </html>
