@@ -7,6 +7,8 @@
 
 body {
 
+
+	background-image: url(../img/background.png);
 	margin-top: 3%;
 	font-family: "Open Sans", "Helvetica Neue";
 
@@ -27,6 +29,7 @@ h1 {
 
 #wrapper {
 
+	background-color: white;
 	width: 45%;
 	margin: 40px auto auto auto;
 	border: 1px black solid;
